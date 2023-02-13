@@ -1,10 +1,8 @@
 EXAMPLE 6 https://wicg.github.io/serial/#dom-serialport-setsignals
 
->>> await port.setSignals({ dataTerminalReady: false });
-
-await new Promise(resolve => setTimeout(resolve, 200));
-
-await port.setSignals({ dataTerminalReady: true });
+     await port.setSignals({ requestToSend: false });
+     await new Promise(resolve => setTimeout(resolve, 200));
+     await port.setSignals({ requestToSend: true });
 
 Serial ports include a number of additional signals for device detection and flow control which can be queried and set explicitly. As an example, programming some micro-controllers first requires entering a "programming" mode by toggling the "Data Terminal Ready" (or DTR) signal.
 
