@@ -10,6 +10,6 @@ Windows tool https://github.com/vshymanskyy/w600tool/releases/tag/0.1
 
 After install firmware you can see an access point wifi named "w600" 
 
-Connect it and use an ftp client same as https://filezilla-project.org/  or use windows dos ftp command to put or read file to/from w600
+Connect it (user="user" password="user" ) with ftp client  https://filezilla-project.org/  or use windows dos ftp command to put or read file to/from w600
 
 The ip will be 192.168.43.1 same as risponse 
