@@ -1,6 +1,6 @@
 EXAMPLE 6 https://wicg.github.io/serial/#dom-serialport-setsignals
 
-> await port.setSignals({ dataTerminalReady: false });
+>>> await port.setSignals({ dataTerminalReady: false });
 
 await new Promise(resolve => setTimeout(resolve, 200));
 
