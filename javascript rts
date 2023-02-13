@@ -1,0 +1,33 @@
+EXAMPLE 6 https://wicg.github.io/serial/#dom-serialport-setsignals
+
+Serial ports include a number of additional signals for device detection and flow control which can be queried and set explicitly. As an example, programming some micro-controllers first requires entering a "programming" mode by toggling the "Data Terminal Ready" (or DTR) signal.
+
+    await port.setSignals({ dataTerminalReady: false });
+    await new Promise(resolve => setTimeout(resolve, 200));
+    await port.setSignals({ dataTerminalReady: true });
+    
+The setSignals() method steps are:
+
+Let promise be a new promise.
+
+If this.[[state]] is not "opened", reject promise with an "InvalidStateError" DOMException and return promise.
+
+If all of the specified members of signals are not present reject promise with TypeError and return promise.
+
+Perform the following steps in parallel:
+
+If signals["dataTerminalReady"] is present, invoke the operating system to either assert (if true) or deassert (if false) the "data terminal ready" or "DTR" signal on the serial port.
+
+If signals["requestToSend"] is present, invoke the operating system to either assert (if true) or deassert (if false) the "request to send" or "RTS" signal on the serial port.
+
+If signals["break"] is present, invoke the operating system to either assert (if true) or deassert (if false) the "break" signal on the serial port.
+
+NOTE
+
+The "break" signal is typically implemented as an in-band signal by holding the transmit line at the "mark" voltage and thus prevents data transmission for as long as it remains asserted.
+
+If the operating system fails to change the state of any of these signals for any reason, queue a global task on the relevant global object of this using the serial port task source to reject promise with a "NetworkError" DOMException.
+
+Queue a global task on the relevant global object of this using the serial port task source to resolve promise with undefined.
+
+Return promise.
