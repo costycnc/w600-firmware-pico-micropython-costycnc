@@ -6,6 +6,8 @@ For upload firmware need to install ch341 driver ( https://www.wemos.cc/en/lates
 
 you can use https://ttssh2.osdn.jp/ terminal for receive or send data to/from w600-pico
 
+https://www.settorezero.com/wordpress/software/zeroterm/ another terminal
+
 Windows tool https://github.com/vshymanskyy/w600tool/releases/tag/0.1 
 
 After install firmware you can see an access point wifi named "w600" 
