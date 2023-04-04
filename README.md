@@ -4,6 +4,8 @@ Official store https://www.wemos.cc/en/latest/w600/index.html
 
 For upload firmware need to install ch341 driver ( https://www.wemos.cc/en/latest/w600/index.html)
 
+You can use this terminal for write(comunicate) with w600-pico https://bipes.net.br/aroca/web-serial-terminal/
+
 you can use https://ttssh2.osdn.jp/ terminal for receive or send data to/from w600-pico
 
 https://www.settorezero.com/wordpress/software/zeroterm/ another terminal
