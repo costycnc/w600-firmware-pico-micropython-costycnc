@@ -1,5 +1,7 @@
 # w600-pico-costycnc
 
+![w600-pico](https://user-images.githubusercontent.com/3405110/231167343-476ad01b-c590-42b0-89b2-4719a8a3d246.jpg)
+
 I find micropython source code here https://github.com/robert-hh/Micropython-Editor and from same use here https://github.com/robert-hh/Shared-Stuff the firmware wm_w600_lfs.fls
 
 ![w600-pico](https://user-images.githubusercontent.com/3405110/231167343-476ad01b-c590-42b0-89b2-4719a8a3d246.jpg)
