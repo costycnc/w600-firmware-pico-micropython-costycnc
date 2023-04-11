@@ -1,5 +1,7 @@
 # w600-pico-costycnc
 
+I find micropython source code here https://github.com/robert-hh/Micropython-Editor
+
 Official store https://www.wemos.cc/en/latest/w600/index.html
 
 For upload firmware need to install ch341 driver ( https://www.wemos.cc/en/latest/w600/index.html)
