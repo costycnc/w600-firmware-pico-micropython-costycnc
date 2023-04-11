@@ -26,5 +26,18 @@ I find many main.py ... but this for address
 
 Seem that any file content begin after 0 ... so change any character from 0 to 0 in hex mode ... because need to keep exactly number of bytes ... if you edit directly in any text editor ... the file will be compromise ... so keep more attention if want modify another custom file ... is a primitive mode ... but in same cases is more efficient that have the compiler installed ...
 
+So i put :
+
+                        import easyw600
+                        easyw600.createap(ssid="w600")
+                        import w600
+                        w600.run_ftpserver(port=21,username="user",password="user")
+                        print("w600 ")
+
+Need to make attention with new line character that is 0d and 0a
+
+
+![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy1.jpg?raw=true)
+
 
 
