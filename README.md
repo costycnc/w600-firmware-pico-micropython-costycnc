@@ -24,4 +24,6 @@ Connect it (user="user" password="user" ) with ftp client  https://filezilla-pro
 
 The ip will be 192.168.43.1 same as risponse 
 
+Below one of my foam cutter that i made and sell...
+
 [<img src="https://github.com/costycnc/w600-pico-micropython/blob/main/w600-pico%20upload%20file%20over%20ftp%20windows/foto/costycnc-foam-cutter.jpg">](https://www.youtube.com/watch?v=UqfS2BkoYnY)
