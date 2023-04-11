@@ -18,9 +18,13 @@ In notepad++ i installed hex plugin
 
 Hex plugin is a plugin that permit to modify any binary file... i used hex plugin many times to modify divers binary files without need to have a compiler ... but shure not need to touch the code ... only ascii characters same in this example.
 
-So i open original firmware w600.fls in notepad++ and in hex mode i search for main.py
+So i open original firmware w600.fls in notepad++ and in hex mode i search for boot.py
 
-I find many main.py ... but this for address 
+I find many boot.py ... at this for address 
+
+The original boot.py contain:
+
+          
 
 ![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy.jpg?raw=true)
 
