@@ -22,3 +22,7 @@ So i open original firmware w600.fls in notepad++ and in hex mode i search for m
 
 I find many main.py ... but this for address 
 
+![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy.jpg?raw=true)
+
+Seem that any file content begin after 0 ... so change any character from 0 to 0 in hex mode ... because need to keep exactly number of bytes ... if you edit directly in any text editor ... the file will be compromise ... so keep more attention if want modify another custom file ... is a primitive mode ... but in same cases is more efficient that have the compiler installed ...
+
