@@ -1,6 +1,6 @@
 # w600-pico-costycnc
 
-In folder firmware you will find the w600 firmware modifie with Notepad++ (I change content of boot.py)
+In folder firmware you will find the w600 firmware modified with Notepad++ (I change content of boot.py)
 
 ![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/w600-pico.jpg)
 
