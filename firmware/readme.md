@@ -49,9 +49,11 @@ Need to make attention with new line character that is 0d and 0a
 
 ![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy1.jpg)
 
-So... now the firmware have boot.py populated with few lines that create an access point and a ftp server ... so when make refirmware with this firmware the lines is ready ... not need insert manually any time when need to reinstall firmware.
+So... now the firmware have boot.py populated with few lines that create an access point and a ftp server ... son can transfer files over wifi (ap w600 connect without password) and ftp with https://filezilla-project.org/download.php
 
-In my case ... i need to reinstall firmware because when make some test il module blocking ... so need to reinstall firmware to unblocking!
+When make refirmware with this firmware the lines is ready ... not need insert manually any time when need to reinstall firmware.
+
+In my case ... i need to reinstall firmware from time a time because when make some test module is blocking ... so need to reinstall firmware to unblocking!
 
 Happy coding!
 
