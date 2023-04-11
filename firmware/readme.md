@@ -26,3 +26,5 @@ I find many main.py ... but this for address
 
 Seem that any file content begin after 0 ... so change any character from 0 to 0 in hex mode ... because need to keep exactly number of bytes ... if you edit directly in any text editor ... the file will be compromise ... so keep more attention if want modify another custom file ... is a primitive mode ... but in same cases is more efficient that have the compiler installed ...
 
+
+
