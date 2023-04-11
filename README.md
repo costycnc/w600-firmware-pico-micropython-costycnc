@@ -1,6 +1,8 @@
 # w600-pico-costycnc
 
-I find micropython source code here https://github.com/robert-hh/Micropython-Editor
+I find micropython source code here https://github.com/robert-hh/Micropython-Editor and from same use here the firmware wm_w600_lfs.fls
+
+
 
 Official store https://www.wemos.cc/en/latest/w600/index.html
 
