@@ -24,6 +24,12 @@ I find many boot.py ... at this for address
 
 The original boot.py contain:
 
+
+          # boot.py -- run on boot-up
+          # can run arbitrary Python, but best to keep it minimal
+          print("")
+          print("    WinnerMicro W600")
+          print("")
           
 
 ![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy.jpg?raw=true)
@@ -41,7 +47,7 @@ So i put :
 Need to make attention with new line character that is 0d and 0a
 
 
-![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy1.jpg?raw=true)
+![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/btpy1.jpg)
 
 So... now the firmware have boot.py populated with few lines that create an access point and a ftp server ... so when make refirmware with this firmware the lines is ready ... not need insert manually any time when need to reinstall firmware.
 
