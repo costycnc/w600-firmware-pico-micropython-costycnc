@@ -14,5 +14,5 @@ in wm_w600.fls
 
 In notepad++ i installed hex plugin
 
-https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/plugin.jpg
+![w600-pico](https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/plugin.jpg)
 
