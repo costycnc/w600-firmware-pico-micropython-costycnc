@@ -25,3 +25,7 @@ After install firmware you can see an access point wifi named "w600"
 Connect it (user="user" password="user" ) with ftp client  https://filezilla-project.org/  or use windows dos ftp command to put or read file to/from w600
 
 The ip will be 192.168.43.1 same as risponse 
+
+See another project costycnc foam cutter cnc for sale 
+
+[<img src="https://github.com/costycnc/w600-pico-micropython/blob/main/w600-pico%20upload%20file%20over%20ftp%20windows/foto/costycnc-foam-cutter.jpg?raw=true">](https://www.youtube.com/watch?v=UqfS2BkoYnY)
