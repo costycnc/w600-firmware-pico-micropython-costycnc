@@ -12,5 +12,7 @@ I insert these lines
 
 in wm_w600.fls
 
-In notepad++ 
+In notepad++ i installed hex plugin
+
+https://github.com/costycnc/w600-firmware-pico-micropython-costycnc/blob/main/img/plugin.jpg
 
