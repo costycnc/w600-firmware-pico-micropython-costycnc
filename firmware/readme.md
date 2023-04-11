@@ -12,4 +12,5 @@ I insert these lines
 
 in wm_w600.fls
 
+In notepad++ 
 
